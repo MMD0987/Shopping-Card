@@ -1,0 +1,120 @@
+/* .navbar-brand {
+  color: green !important;
+} */
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #de6b5c;
+}
+
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #de6b5c;
+}
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #de6b5c;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+}
+
+.total-price span {
+  font-size: 30px;
+  color: black;
+}
+
+.checkout button{
+  font-size: 1em;
+  color: #fff;
+  background: #de6b5c;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.checkout button:hover{
+  color: black;
+}
+
+.list-products {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.card {
+  padding: 5%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #de6b5c;
+}
+
+.card-text {
+  color: black;
+}
+
+.quantity {
+  font-size: 25px;
+}
+
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.fa-trash-alt {
+  color: #de6b5c;
+  cursor: pointer;
+}
+
+.fa-heart {
+  color: gainsboro;
+  border-color: #de6b5c;
+  border: 50%;
+}
+
+.fa-trash-alt:hover {
+  color: black;
+}
+
+.fa-heart:hover {
+  color: red;
+}
